@@ -24,9 +24,11 @@
                     <input type="text" id="name" placeholder="Full name">
                     <input type="tel" id="phoneNumber" value="+91" placeholder="Enter Phone Number" />
                     <input type="text" id="code" placeholder="Enter OTP" />
+                        
+                    <!-- Add a container for reCaptcha -->
+                    <div id="recaptcha-container"></div>
 
                     <!-- Add two buttons to submit the inputs -->
-                    
                     <div id="button_container">
                             <button id="sign-in-button" onclick="submitPhoneNumberAuth()">
                                 SEND OTP
@@ -36,8 +38,7 @@
                             </button>
                     </div>
 
-                    <!-- Add a container for reCaptcha -->
-                    <div id="recaptcha-container"></div>
+                   
 
                     </div>
                 </div>
